@@ -1,15 +1,14 @@
 var takeANumber = function(currentLine, newName){
-  if (currentLine.length > 0) {
   var num = currentLine.length
   currentLine.push(newName)
   // console.log(currentLine)
   return `Welcome, ${newName}. You are number ${num + 1} in line.`
-  } else {
-    
-  }
 }
 
 // console.log(takeANumber(["ada", "zach", "corey"], "lesly"))
+console.log(takeANumber(katzDeli, 'Ada'));
+console.log(takeANumber(katzDeli, 'Grace'));
+console.log(takeANumber(katzDeli, 'Kent'));
 
 var nowServing = function(katzDeliLine){
   if(katzDeliLine.length > 0){
