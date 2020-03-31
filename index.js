@@ -1,4 +1,4 @@
-var katzDeli = ["jackson", "jeremy", "ada"]
+// var katzDeli = ["jackson", "jeremy", "ada"]
 
 var takeANumber = function(currentLine, newName){
   var num = currentLine.length
@@ -8,9 +8,9 @@ var takeANumber = function(currentLine, newName){
 }
 
 // console.log(takeANumber(["ada", "zach", "corey"], "lesly"))
-console.log(takeANumber(katzDeli, 'Ada'));
-console.log(takeANumber(katzDeli, 'Grace'));
-console.log(takeANumber(katzDeli, 'Kent'));
+// console.log(takeANumber(katzDeli, 'Ada'));
+// console.log(takeANumber(katzDeli, 'Grace'));
+// console.log(takeANumber(katzDeli, 'Kent'));
 
 var nowServing = function(katzDeliLine){
   if(katzDeliLine.length > 0){
