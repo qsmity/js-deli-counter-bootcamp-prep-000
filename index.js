@@ -30,7 +30,7 @@ var currentLine = function(currentLine){
     for(let i = 0; i < currentLine.length -1; i++){
       message = message + [i+1] + ". " + currentLine[i] + ", "
     }
-    return message + [i+1] + ". " + currentLine[currentLine.length-1]
+    return message + [currentLine.length-1] + ". " + currentLine[currentLine.length-1]
   } else {
     return "The line is currently empty."
   }
