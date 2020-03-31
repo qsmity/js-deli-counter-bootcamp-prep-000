@@ -1,6 +1,6 @@
 var takeANumber = function(currentLine, newName){
   var num = currentLine.length
-  return `Welcome, ${newName}. You are the ${num + 1}th in line.`
+  return `Welcome, ${newName}. You are number ${num + 1} in line.`
 }
 
 // console.log(takeNumber(["ada", "zach", "corey"], "lesly"))
