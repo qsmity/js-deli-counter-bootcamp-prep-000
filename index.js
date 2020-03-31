@@ -20,13 +20,12 @@
 var currentLine = function(currentLine){
   if (currentLine.length > 0){
     for(let i = 0; i < currentLine.length; i++){
-      const message = [i+1] + ": " + currentLine[i]
-      console.log(message)
+      const message = [i+1] + ". " + currentLine[i]
     }
-  return `the line is currently:`
+  return `the line is currently: ${message}`
   } else {
     return "The line is currently empty."
   }
 }
 
-currentLine(["jada", "jason", "jayla"])
+console.log(currentLine(["jada", "jason", "jayla"]))
