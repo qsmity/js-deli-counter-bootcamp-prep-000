@@ -2,7 +2,7 @@ var takeANumber = function(currentLine, newName){
   if (currentLine.length > 0) {
   var num = currentLine.length
   currentLine.push(newName)
-  console.log(currentLine)
+  // console.log(currentLine)
   return `Welcome, ${newName}. You are number ${num + 1} in line.`
   } else {
     
