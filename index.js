@@ -36,4 +36,4 @@ var currentLine = function(currentLine){
   }
 }
 
-console.log(currentLine(["jada", "jason", "jayla"]))
+// console.log(currentLine(["jada", "jason", "jayla"]))
