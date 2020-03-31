@@ -19,7 +19,7 @@
 
 var currentLine = function(currentLine){
   if (currentLine.length > 0){
-    const message
+    var message
     for(let i = 0; i < currentLine.length; i++){
      message = [i+1] + ". " + currentLine[i]
       
