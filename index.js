@@ -22,7 +22,7 @@ var nowServing = function(katzDeliLine){
   }
 }
 
-console.log(nowServing(["jackson", "jason"]))
+// console.log(nowServing(["jackson", "jason"]))
 
 var currentLine = function(currentLine){
   if (currentLine.length > 0){
