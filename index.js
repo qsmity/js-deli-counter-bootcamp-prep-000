@@ -7,6 +7,14 @@ var nowServing = function(katzDeliLine){
   return katzDeliLine[0]
   katzDeliLine.shift()
   } else {
-    return "The line"
+    return "There is nobody waiting to be served!"
+  }
+}
+
+var currentLine = function(currentLine){
+  if (currentLine > 0){
+  return `the line is currently:`
+  } else {
+    return 
   }
 }
