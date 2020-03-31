@@ -27,13 +27,13 @@ var nowServing = function(katzDeliLine){
 var currentLine = function(currentLine){
   if (currentLine.length > 0){
     var message = `The line is currently: `
-    for(let i = 0; i < currentLine.length; i++){
+    for(let i = 0; i < currentLine.length -1; i++){
       message = message + [i+1] + ". " + currentLine[i] + ", "
     }
-    return message
+    return message + [i+1] + ". " + currentLine[currentLine.length-1]
   } else {
     return "The line is currently empty."
   }
 }
 
-// console.log(currentLine(["jada", "jason", "jayla"]))
+console.log(currentLine(["jada", "jason", "jayla"]))
