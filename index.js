@@ -21,7 +21,7 @@ var currentLine = function(currentLine){
   if (currentLine.length > 0){
     var message = `The line is currently: `
     for(let i = 0; i < currentLine.length; i++){
-      message = message + [i+1] + ". " + currentLine[i]
+      message = message + [i+1] + ". " + currentLine[i] + " "
     }
     return message
   } else {
