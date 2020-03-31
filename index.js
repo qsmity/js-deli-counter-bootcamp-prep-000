@@ -22,7 +22,7 @@ var currentLine = function(currentLine){
     var message
     for(let i = 0; i < currentLine.length; i++){
      message = [i+1] + ". " + currentLine[i]
-      
+      console.log(message)
     }
     return `The line is currently: ${message}`
   } else {
