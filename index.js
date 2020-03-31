@@ -19,10 +19,10 @@
 
 var currentLine = function(currentLine){
   if (currentLine.length > 0){
-    var message
+    var message = `The line is currently: `
     for(let i = 0; i < currentLine.length; i++){
      message = [i+1] + ". " + currentLine[i]
-      return `The line is currently: ${message}`
+      return message
     }
   } else {
     return "The line is currently empty."
