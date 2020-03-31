@@ -8,7 +8,7 @@ var takeANumber = function(currentLine, newName){
   }
 }
 
-console.log(takeNumber(["ada", "zach", "corey"], "lesly"))
+console.log(takeANumber(["ada", "zach", "corey"], "lesly"))
 
 var nowServing = function(katzDeliLine){
   if(katzDeliLine.length > 0){
