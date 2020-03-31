@@ -1,3 +1,5 @@
+var katzDeli = ["jackson", "jeremy", "ada"]
+
 var takeANumber = function(currentLine, newName){
   var num = currentLine.length
   currentLine.push(newName)
