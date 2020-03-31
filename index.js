@@ -15,12 +15,12 @@
 //   }
 // }
 
-console.log(nowServing([]))
+// console.log(nowServing([]))
 
-// var currentLine = function(currentLine){
-//   if (currentLine > 0){
-//   return `the line is currently:`
-//   } else {
-//     return "The line is currently empty."
-//   }
-// }
+var currentLine = function(currentLine){
+  if (currentLine > 0){
+  return `the line is currently:`
+  } else {
+    return "The line is currently empty."
+  }
+}
