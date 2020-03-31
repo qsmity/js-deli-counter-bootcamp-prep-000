@@ -9,14 +9,13 @@ var nowServing = function(katzDeliLine){
   if(katzDeliLine.length > 0){
   const firstPerson = katzDeliLine[0]
   katzDeliLine.shift()
-  console.log(katzDeliLine)
   return firstPerson
   } else {
     return "There is nobody waiting to be served!"
   }
 }
 
-console.log(nowServing(["Ada,", "jackson", "jeffery"]))
+console.log(nowServing([]))
 // var currentLine = function(currentLine){
 //   if (currentLine > 0){
 //   return `the line is currently:`
