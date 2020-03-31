@@ -1,4 +1,4 @@
-var takeNumber = function(currentLine, newName){
+var takeANumber = function(currentLine, newName){
   var num = currentLine.length
   return `Welcome, ${newName}. You are the ${num + 1}th in line.`
 }
