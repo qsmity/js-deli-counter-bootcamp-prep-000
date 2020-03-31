@@ -18,7 +18,10 @@
 // console.log(nowServing([]))
 
 var currentLine = function(currentLine){
-  if (currentLine > 0){
+  if (currentLine.length > 0){
+    for(let i = 0; i < currentLine.length; i++){
+      const message = 
+    }
   return `the line is currently:`
   } else {
     return "The line is currently empty."
