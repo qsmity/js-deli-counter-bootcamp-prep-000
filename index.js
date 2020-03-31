@@ -5,17 +5,18 @@
 
 // console.log(takeNumber(["ada", "zach", "corey"], "lesly"))
 
-var nowServing = function(katzDeliLine){
-  if(katzDeliLine.length > 0){
-  const firstPerson = katzDeliLine[0]
-  katzDeliLine.shift()
-  return firstPerson
-  } else {
-    return "There is nobody waiting to be served!"
-  }
-}
+// var nowServing = function(katzDeliLine){
+//   if(katzDeliLine.length > 0){
+//   const firstPerson = katzDeliLine[0]
+//   katzDeliLine.shift()
+//   return firstPerson
+//   } else {
+//     return "There is nobody waiting to be served!"
+//   }
+// }
 
 console.log(nowServing([]))
+
 // var currentLine = function(currentLine){
 //   if (currentLine > 0){
 //   return `the line is currently:`
