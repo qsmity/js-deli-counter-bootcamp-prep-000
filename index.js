@@ -19,8 +19,9 @@
 
 var currentLine = function(currentLine){
   if (currentLine.length > 0){
+    const message
     for(let i = 0; i < currentLine.length; i++){
-      var message = [i+1] + ". " + currentLine[i]
+     message = [i+1] + ". " + currentLine[i]
       
     }
     return `The line is currently: ${message}`
