@@ -20,7 +20,7 @@
 var currentLine = function(currentLine){
   if (currentLine.length > 0){
     for(let i = 0; i < currentLine.length; i++){
-      const message = [i] + ": " + currentLine[i]
+      const message = [i+1] + ": " + currentLine[i]
       console.log(message)
     }
   return `the line is currently:`
