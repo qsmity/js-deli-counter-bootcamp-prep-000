@@ -1,3 +1,3 @@
-var takeNumber = function(){
+var takeNumber = function(currentLine, newName){
   
 }
